@@ -1,0 +1,17 @@
+
+:root{
+  --primary-500:#2563eb; --primary-600:#1d4ed8;
+  --secondary-500:#00b894; --secondary-600:#009f7f;
+  --accent-500:#a78bfa; --info-500:#06b6d4;
+  --success-500:#22c55e; --warning-500:#f59e0b; --danger-500:#ef4444;
+  --neutral-950:#0b1220; --neutral-900:#0f172a; --neutral-700:#334155;
+  --neutral-500:#64748b; --neutral-400:#94a3b8; --neutral-300:#cbd5e1;
+  --neutral-200:#e2e8f0; --neutral-100:#f1f5f9; --white:#fff;
+  --font-display:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;
+  --font-body:'Quicksand',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;
+  --fs-XXL:clamp(2rem,2.2vw + 1.2rem,3rem); --fs-XL:1.75rem; --fs-L:1.25rem; --fs-M:1rem; --fs-S:.875rem;
+  --space-1:8px; --space-2:16px; --space-3:24px; --space-4:32px; --space-5:48px; --space-6:64px;
+  --container-max:1200px; --gutter:16px;
+  --shadow-1:0 2px 12px rgba(0,0,0,.06); --shadow-2:0 8px 30px rgba(0,0,0,.12);
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,500,400|Quicksand:500,400&display=swap');

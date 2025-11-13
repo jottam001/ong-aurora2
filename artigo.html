@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"><title>Artigo — Layout de Conteúdo - Aurora</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./assets/css/tokens.css">
+<link rel="stylesheet" href="./assets/css/base.css">
+<link rel="stylesheet" href="./assets/css/layout.css">
+<link rel="stylesheet" href="./assets/css/nav.css">
+<link rel="stylesheet" href="./assets/css/components.css">
+<link rel="stylesheet" href="./assets/css/forms.css">
+<link rel="stylesheet" href="./assets/css/utilities.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="navbar wrapper">
+    <div class="logo">Aurora Social</div>
+    <button class="burger" aria-label="Abrir menu">☰</button>
+    <ul class="menu" role="menubar">
+      <li><a href="./index.html" role="menuitem">Início</a></li>
+      <li class="has-submenu">
+        <a href="./projetos.html" aria-haspopup="true" aria-expanded="false" role="menuitem">Projetos</a>
+        <ul class="submenu" role="menu">
+          <li><a href="./projetos.html#voluntariado" role="menuitem">Voluntariado</a></li>
+          <li><a href="./projetos.html#doacoes" role="menuitem">Doações</a></li>
+          <li><a href="./projetos.html#educacao" role="menuitem">Educação</a></li>
+        </ul>
+      </li>
+      <li><a href="./cadastro.html" role="menuitem">Cadastro</a></li>
+      <li><a href="./artigo.html" role="menuitem">Artigo</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="wrapper">
+  <section class="grid-12" aria-labelledby="artigo-title">
+    <article class="col-8">
+      <h1 id="artigo-title">Como mensurar impacto social?</h1>
+      <p class="lead">Resumo: Este artigo apresenta um panorama rápido sobre como planejar, medir e comunicar o impacto social de projetos comunitários, com exemplos práticos e dicas acionáveis.</p>
+<p>Este layout demonstra um tipo de conteúdo diferente (artigo/texto longo) com coluna principal + lateral.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a nisi dignissim, posuere risus sed, dapibus justo.</p>
+      <div class="alert success mt-2">Dica: Defina indicadores, colete dados e publique relatórios periódicos.</div>
+    </article>
+    <aside class="col-4">
+      <h3>Relatos</h3>
+      <div class="cards">
+        <div class="card">
+          <img class="cover" src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&w=1200&q=80" alt="Equipe de voluntários entregando cestas básicas">
+          <div class="body">
+            <h3>Comunidade A</h3>
+            <p>+120 famílias atendidas em 2025 com kits de alimentos e reuniões de acompanhamento.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="cover" src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80" alt="Aula de reforço escolar em espaço comunitário">
+          <div class="body">
+            <h3>Comunidade B</h3>
+            <p>Oficinas quinzenais de reforço escolar e mentorias individuais para jovens.</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrapper"><small>&copy; 2025 Aurora • Feito com 💙</small></div>
+</footer>
+
+<script src="./assets/js/masks.js" defer></script>
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>
