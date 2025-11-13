@@ -1,5 +1,0 @@
-
-.mt-1{margin-top:var(--space-1)} .mt-2{margin-top:var(--space-2)} .mt-3{margin-top:var(--space-3)} .mt-4{margin-top:var(--space-4)} .mb-2{margin-bottom:var(--space-2)}
-.center{text-align:center}
-.grid-12{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--gutter)}
-.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-6{grid-column:span 6}.col-4{grid-column:span 4}.col-3{grid-column:span 3}

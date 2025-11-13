@@ -1,6 +1,0 @@
-
-.form{display:grid;gap:12px} .field{display:grid;gap:6px} .label{font-weight:600;color:#444c}
-.input{padding:.65rem .8rem;border:1px solid var(--neutral-400);border-radius:10px;width:100%}
-.input:focus{border-color:var(--primary-500);outline:2px solid var(--primary-500)}
-.input:invalid{border-color:var(--danger-500);background:#fff1f1}
-.input:valid{border-color:var(--success-500);background:#f0fff4}
